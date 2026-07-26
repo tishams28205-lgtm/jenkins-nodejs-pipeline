@@ -1,0 +1,21 @@
+# Node.js CI/CD Pipeline
+
+## Objective
+Automate the build and deployment of a Node.js application using GitHub Actions and Docker.
+
+## Technologies Used
+- Node.js
+- Express.js
+- Docker
+- GitHub Actions
+- Docker Hub
+
+## Workflow
+1. Push code to the `main` branch.
+2. GitHub Actions installs dependencies.
+3. Builds the Docker image.
+4. Logs in to Docker Hub.
+5. Pushes the latest image automatically.
+
+## Author
+Tisha Soni
